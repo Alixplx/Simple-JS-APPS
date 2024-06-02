@@ -1,0 +1,99 @@
+body {
+
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f2;
+}
+
+.passwd-container {
+
+    background-color: pink;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    margin: 10px;
+}
+
+.input-container {
+
+    border: solid 2px black;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input {
+
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.input::placeholder {
+
+    color: white;
+    letter-spacing: 0;
+}
+
+.fa-copy {
+
+    cursor: pointer;
+    opacity: .4;
+}
+
+.fa-copy:hover {
+
+    opacity: .7;
+}
+
+.btn {
+
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.btn:hover {
+
+    background-color: orangered;
+}
+
+.btn:active {
+
+    transform: scale(0.95);
+}
+
+.alert-container {
+
+    position: fixed;
+    width: 300px;
+    height: 50px;
+    background-color: lightgreen;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+.active.alert-container {
+
+    right: -300px;
+}

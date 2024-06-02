@@ -1,0 +1,53 @@
+
+.container {
+
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+}
+
+.title {
+
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.timer {
+
+    font-size: 72px;
+}
+
+button {
+
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    background-color: rgb(38, 35, 35);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: opacity .3s ease-in-out;
+}
+
+button:hover {
+
+    opacity: .7;
+}
+
+#start {
+
+    background-color: rgb(42, 181, 42);
+}
+
+#stop {
+
+    background-color: rgb(55, 127, 227);
+}
+
+#reset {
+
+    background-color: red;
+}
